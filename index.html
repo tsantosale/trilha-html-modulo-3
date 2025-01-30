@@ -4,41 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Tudo sobre lentilha</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>   
 
-    <div class="bar"></div>
+         <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" class="logo" aria-label="Ir para a página inicial">
+             <img src="/assets/images/logo-wikipedia-2.jpg" alt="Logo do Wikipedia" width="190">
+         </a>
+
+    </header>
+
+    <nav aria-label="Menu principal" role="navigation">
+        <hr>   
+        <center> 
+            <details>
+                <summary>Navegue pelo site</summary>
+                <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" aria-current="page">Página inicial</a></li>
+                <li><a href="https://www.wikipedia.org/">Buscar</a></li>
+            </details>
+        </center>    
+        <hr>   
+    </nav>
 
     <div class="content">
         <div class="sidebar">
-            <h2>Título</h2>
+            <h2>Ingredientes de origem vegetal</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="http://127.0.0.1:5500/">Lentilha</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Cenoura">Cenoura</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Arroz">Arroz</a></li>
             </ul>
         </div>
 
-        <div class="main">
+        <main>
             
-        </div>
+            <h1 id="sobre">Lentilha</h1>
+            <p>Lens culinaris, popularmente chamada de lentilha, é pequena planta trepadeira anual, da família das leguminosas, subfamília Faboideae. Essa erva de origem asiática é cultivada universalmente.</p>
+
+            <h2 id="consumo">Consumo</h2>
+            <p>Lentilhas têm sido parte da dieta humana desde o período neolítico, sendo uma das primeiras culturas agrícolas domesticadas no Oriente Médio. Evidências arqueológicas mostram que elas eram consumidas de 9.500 a 13.000 anos atrás.</p> 
+            <p>Do Oriente Médio, as lentilhas se espalharam para a Europa do sul e central e para o norte de África.</p>
+            
+            <figure>
+            <img src="/assets/images/lentilha.jpg" alt="Grãos de lentilha" width="200">
+            </figure>     
+
+            <h2 id="nutricional">Valor Nutricional</h2>
+            <p>Com cerca de 30% de suas calorias vindas de proteína, as lentilhas têm o <strong>terceiro maior nível de proteína</strong>, em peso, do que qualquer outro legume, depois da soja, e superado, ainda, pelo teor das sementes do cânhamo.</p>
+
+            <h2 id="receita">Receita</h2>
+            <p>Aprenda a fazer um cozidão vegano de lentilha com Paola Carossela.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc-ushZajD4" 
+                title="Vídeo do YouTube Receita Lentilha" frameborder="0" allowfullscreen>
+            </iframe>
+            <br>
+
+            
+        </main>
 
         <div class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#sobre">Sobre a Lentilha</a></li>
+                <li><a href="#consumo">Consumo</a></li>
+                <li><a href="#nutricional">Valor Nutricional</a></li>
+                <li><a href="#receita">Receita</a></li>
             </ul>
         </div>
     </div>
 
-    <div class="footer">
-
-    </div>
+    <footer>
+        <center>
+         <hr> 
+            <p>Esta página foi editada pela última vez às 08h41min de 30 de janeiro de 2025.</p>
+            <p><small> O que mais você gostaria de saber?  <a href="https://www.wikipedia.org/">Encontre aqui!</a></small></p>
+         <br>
+         <hr>
+        </center>    
+    </footer>
 </body>
 </html>
